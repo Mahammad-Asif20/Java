@@ -1,0 +1,55 @@
+Strings:
+  *A String in Java is a sequence of characters and is immutable, meaning once created, its value cannot be changed. 
+
+Storing Strings:
+   String str1 = "Hello";
+   String str2 = new String("Hello");
+
+String Methods:
+   length()-Returns the length of the string.
+   charAt(index)-Returns the character at the specified index.
+   toUpperCase()-Converts the string to uppercase.
+   toLowerCase()-Converts the string to lowercase.
+   trim()-Removes leading and trailing spaces.
+   substring(start, end)-Extracts a portion of the string.
+   replace(old, new)-Replaces occurrences of a substring.
+   contains(str)-Checks if the string contains a specified sequence.
+   split(regex)-Splits the string based on a delimiter.
+   equals(str)-Checks if two strings are equal.
+   equalsIgnoreCase(str)-Compares strings ignoring case.
+   concat(str)-Concatenates two strings.
+   
+
+String Comparison:
+   
+   String s1 = "Java";
+   String s2 = "Java";
+   String s3 = new String("Java");
+
+   System.out.println(s1 == s2); // true(same reference in String Pool)
+   System.out.println(s1 == s3); // false(different objects in memory)
+   System.out.println(s1.equals(s3)); // true (same content)
+
+-----------------------------------------------------------------------------------------
+
+String Builder:
+  *StringBuilder is a mutable sequence of characters.
+  *It is used to modify strings without creating new objects, which makes it more efficient than String when you're changing content frequently.
+
+
+Syntax:
+   StringBuilder sb = new StringBuilder("Hello");
+   sb.append(" World");
+   System.out.println(sb);  // Output: Hello World
+
+String Buffer:
+  * StringBuffer is a mutable (changeable) sequence of characters, just like StringBuilder.
+  * But unlike StringBuilder, StringBuffer is thread-safe, meaning it can be safely used in multi-threaded environments.
+
+Syntax:
+    StringBuffer sb = new StringBuffer("Java");
+    sb.append(" Programming");
+    System.out.println(sb); // Output: Java Programming
+    }
+}
+
