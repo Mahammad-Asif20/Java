@@ -1,0 +1,52 @@
+Make a note on Collection Framework.
+
+*The Collection Framework in Java is a set of classes and interfaces used to store, retrieve, and manipulate groups of objects (like lists, sets, and maps).
+
+Uses:
+  *To store multiple elements (objects).
+  *To avoid using arrays when data size is unknown or dynamic.
+  *Built-in sorting, searching, and manipulation.
+  *Supports data structures like List, Set, Queue, and Map.
+
+Interfaces in Collection Framework:
+
+1]List:
+   * A List is an ordered collection in Java that allows duplicate elements.
+   * List preserves the insertion order, meaning the elements appear in the order in which they were added.
+   * In a List, we can access elements using an index, just like in an array.
+
+ Common Implementations:
+ *ArrayList	 
+ *LinkedList	
+ *Vector
+
+2]Set:
+   * A Set is a collection that does not allow duplicate elements
+   * It is used when you want to store unique values only.
+   * In a Set, we cannot access elements using an index.
+
+Common Implementations:
+ *HashSet	
+ *LinkedHashSet	
+ *TreeSet	
+
+3]Map:
+   * A Map is a data structure in Java used to store key-value pairs.
+   * Each key is unique, but values can be duplicated.
+  
+Common Implementations:
+ *HashMap
+ *LinkedHashMap	
+ *TreeMap	
+
+
+3]Queue:
+    * A Queue is a linear data structure that follows the FIFO principle:
+         FIFO = First In, First Out
+         The element that is added first will be removed first.
+    * insertion happens at the rear (end).
+    * Removal happens at the front (beginning).
+ 
+ Common Implementations:
+   * PriorityQueue.
+   * ArrayDeque.

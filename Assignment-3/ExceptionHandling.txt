@@ -1,0 +1,20 @@
+Make a note on the ways to handle Exceptions in java:
+
+
+1]1. Try-Catch Block:
+   * The most common way to handle exceptions.
+   * Code that might throw an exception is written inside the try block.
+   * The catch block handles the exception.
+
+2]Multiple Catch Blocks:
+   * Used when different types of exceptions may occur in the same try block.
+
+3]Finally Block:
+   * Always executes after the try-catch, whether an exception occurred or not.
+   * Used to close resources like files, DB connections, etc.
+
+4]Throw Keyword:
+   * Used to explicitly throw an exception.
+
+5]Throws Keyword:
+   * Declares exceptions in method signature. Used to pass the responsibility of handling exception to the calling method.

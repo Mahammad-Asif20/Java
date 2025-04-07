@@ -1,0 +1,49 @@
+1]Make a note on Exception hierarchy, the definition of all the Exceptions:
+   1. Throwable:
+          The superclass of all errors and exceptions in Java.
+      
+   Subclasses:
+           * Exception
+           * Error
+
+   1]Checked Exception:
+     * These are checked at compile-time.
+     * Must be handled using try-catch or declared using throws.
+               
+     Common Checked Exceptions:
+          * IOException : When input/output operation fails (e.g., file not found).
+          * SQLException : Database access error occurs.
+          * ClassNotFoundException : Class cannot be found when loading it.
+          * InterruptedException  : A thread is interrupted while waiting or sleeping.
+          * FileNotFoundException : File is not found during input stream creation.
+   
+   
+   2]Unchecked Exception:
+      * These are not checked at compile-time.
+      * Occur due to bugs in the program and can be avoided using logic checks.
+
+      Common Unchecked Exceptions:
+          * ArithmeticException	: Division by zero.
+          * NullPointerException : Accessing an object with null reference.
+          * ArrayIndexOutOfBoundsException : Accessing invalid array index.
+          * NumberFormatException : Trying to convert invalid string to number.
+          * IllegalArgumentException : Method receives inappropriate argument.
+          * ClassCastException : Invalid type casting of objects.
+     
+
+   3]Error:
+       * These are serious issues beyond the control of the program.
+       * Should not be caught or handled usually.
+
+       Common Errors:
+           * OutOfMemoryError : JVM runs out of memory.
+           * StackOverflowError : Too much recursive method calling.
+           * VirtualMachineError : JVM error due to system resource limits.
+           * AssertionError : Assert statement fails during development testing.
+
+
+
+
+
+
+
